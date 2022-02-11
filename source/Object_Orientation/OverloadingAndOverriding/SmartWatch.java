@@ -12,4 +12,9 @@ public class SmartWatch{
 	public void showStepsCount(){
 	 System.out.println("Steps count is : "+100);
 	}
+	
+	//method which sub class has not override it
+	private void showRPM(){
+	 System.out.println("RPM is : "+120);
+	}
 }	
